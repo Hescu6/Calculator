@@ -109,18 +109,20 @@ public class Calculator implements ActionListener{
 		
 		frame.setVisible(true);
 		    
-	} //end constructor
+	} //end constructor 
 
 
 	//override method from ActionListener class : defines the functionality of calculator
 	@Override
 	public void actionPerformed(ActionEvent e) {
-		// TODO Auto-generated method stub
+		// set up text field
 		for (int i=0 ; i<10 ; i++) {
 			if (e.getSource() == numberButtons[i]) {
 				textfield.setText(textfield.getText().concat(String.valueOf(i)));
 			}
 		}
+		
+		//TODO add functionality to function buttons
 	}
 
 }
