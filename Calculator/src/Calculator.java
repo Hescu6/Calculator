@@ -65,7 +65,6 @@ public class Calculator implements ActionListener{
 			functionButtons[i].addActionListener(this);
 			functionButtons[i].setFont(myFont);
 			functionButtons[i].setFocusable(false);
-			
 		}
 		
 		//addActionListener to numberButtons and set characteristics
@@ -193,5 +192,7 @@ public class Calculator implements ActionListener{
 			
 		}
 		
+
+	}
 
 }
