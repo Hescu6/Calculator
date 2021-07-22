@@ -12,3 +12,5 @@ Basic calculator made in Java (Swing and AWT)
 
 -Improve layout of calculator and add functionality
 
+
+-Add long equation functionality using PEMDAS
